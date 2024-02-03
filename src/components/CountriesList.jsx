@@ -18,6 +18,7 @@ const CountriesList = ({ cities, isLoading }) => {
         {
           country: city.country,
           emoji: city.emoji,
+          id: city.country + city.emoji,
         },
       ];
     } else {
