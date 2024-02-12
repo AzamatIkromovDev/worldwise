@@ -1,7 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Product from "./pages/Product.jsx";
 import Pricing from "./pages/Pricing.jsx";
-import Homepage from "./pages/HomePage.jsx";
 import PageNotFound from "./pages/PageNotFound.jsx";
 import AppLayout from "./pages/AppLayout.jsx";
 import Login from "./pages/Login.jsx";
@@ -10,6 +9,7 @@ import CountriesList from "./components/CountriesList.jsx";
 import City from "./components/City.jsx";
 import Form from "./components/Form.jsx";
 import { CitiesProvider } from "./context/CitiesContext.jsx";
+import Homepage from "./pages/Homepage.jsx";
 
 const App = () => {
   return (
